@@ -18,14 +18,16 @@
 
   			<div class="form-group">
     			<label for="body">Body:</label>
-    			<textarea name="body" class="form-control" id="body" class="form-control" ></textarea>
+    			<textarea name="body" class="form-control" id="body" ></textarea>
   			</div>
 
         <div class="form-group">
   			 <button type="submit" class="btn btn-primary">Publish</button>
         </div>
 
-        @include ('partials.errors')
+
+         @include ('partials.errors')
+
 
 		</form>
 
